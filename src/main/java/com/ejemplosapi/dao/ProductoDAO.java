@@ -21,12 +21,14 @@ public class ProductoDAO {
         Producto producto3 = new Producto(3,"PASTA",700);
         Producto producto4 = new Producto(4,"ACEITE",800);
         Producto producto5 = new Producto(5,"ATUN",900);
+        Producto producto6 = new Producto(5,"LENTEJAS",1000);
     
         lista.add(producto1);
         lista.add(producto2);
         lista.add(producto3);
         lista.add(producto4);
         lista.add(producto5);
+        lista.add(producto6);
         
         return lista;
         
