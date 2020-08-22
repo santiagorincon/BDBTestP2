@@ -28,6 +28,7 @@ public class ProductoDAO {
         lista.add(producto3);
         lista.add(producto4);
         lista.add(producto5);
+        lista.add(producto6);
         
         return lista;
         
