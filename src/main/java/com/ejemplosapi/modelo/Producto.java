@@ -13,7 +13,16 @@ public class Producto {
     public int id;
     public String nombre;
     public float precio;
+    public String categoria;
 
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+    
     public Producto() {
     }
 
@@ -21,6 +30,7 @@ public class Producto {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
+        this.categoria = "ALIMENTOS";
     }
 
     public int getId() {
